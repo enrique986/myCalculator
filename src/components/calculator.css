@@ -1,0 +1,55 @@
+.calculatorContainer{
+    width: 500px;
+    margin: 100px auto;
+   
+    
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 2px;
+    grid-template-areas: 
+    ". . . ."
+    ". . . ."
+    ". . . ."
+    ". . . ."
+    ". . . .";
+    background-image: url(./react_logo_2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+   
+    
+   
+    
+    
+}
+.calculatorButton{
+    padding: 20px;
+    font-size: 30px;
+    border: solid 1px black;
+    background-color: grey;
+    color: aliceblue;   
+    opacity: 0.90;
+    
+   
+}
+.calculatorButton:hover{
+    background-color: rgb(97, 96, 96);
+
+}
+
+.calculatorCurrentValue{
+    font-size: 50px;
+    font-weight: bold;
+    background-color: rgba(128, 128, 128, 0.489);
+    margin-bottom: 15px;
+    border:solid  1px  black;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+}
+
